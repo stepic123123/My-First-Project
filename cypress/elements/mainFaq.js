@@ -1,53 +1,32 @@
 class MainFaq {
-   //data-cy="faq-balance"
-//data-cy="faq-all-questions"
-//data-cy="faq-verification"
-//data-cy="faq-bonus-faq"
-//data-cy="faq-payout"
-//data-cy="faq-payin"
-//data-cy="faq-profile"
-//data-cy="faq-registration"
-//data-cy="faq-contact"
-    
-    
-    faqBalance() {
+   
+faqBalance() {
         return cy.get('[data-cy="faq-balance"]');
     }
-
-    allQuestions() {
+allQuestions() {
         return cy.get('[data-cy="faq-all-questions"]',{ timeout: 1000 });
     }
-
-    faqVerification() {
+faqVerification() {
         return cy.get('[data-cy="faq-verification"]');
     }
-
-    bonusFaq() {
+bonusFaq() {
         return cy.get('[data-cy="faq-bonus-faq"]');
     }
-
-    faqPayout() {
+faqPayout() {
         return cy.get('[data-cy="faq-payout"]');
     }
-
-    faqPayin() {
+faqPayin() {
         return cy.get('[data-cy="faq-payin"]');
     }
-
-    faqProfile() {
+faqProfile() {
         return cy.get('[data-cy="faq-profile"]');
     }
-
-    faqRegistration() {
+faqRegistration() {
         return cy.get('[data-cy="faq-registration"]');
     }
-
-    faqContact() {
+faqContact() {
         return cy.get('[data-cy="faq-contact"]');
     }
-
-    
-
 }
 
 export default new MainFaq();
