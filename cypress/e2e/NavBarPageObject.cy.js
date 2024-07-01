@@ -6,7 +6,7 @@ MainList.navList().should('exist');
 MainList.navList().should('be.visible');
 });
 
-it.only('The chapter main', { retries: 1 }, () => {
+it('The chapter main', { retries: 1 }, () => {
     cy.visit('https://cosmolot.ua/');
 MainList.navMain().should('exist');
 MainList.navMain().should('be.visible');
