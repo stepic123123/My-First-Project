@@ -6,8 +6,8 @@ cy.get('[data-cy ="burger-nav-list"]', { timeout: 1000 }).should('be.visible');
 
 it(' The chapter main ', { retries: 1 }, () => {
     cy.visit('https://cosmolot.ua/');
-cy.get('[data-cy = main-menu-home-lnk"]', { timeout: 1000 }).should('exist');
-cy.get('[data-cy = main-menu-home-lnk"]', { timeout: 1000 }).should('be.visible');
+cy.get('[data-cy = "main-menu-home-lnk"]', { timeout: 1000 }).should('exist');
+cy.get('[data-cy = "main-menu-home-lnk"]', { timeout: 1000 }).should('be.visible');
 });
 
 it(' The chapter slots ', { retries: 1 }, () => {
