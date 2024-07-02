@@ -4,7 +4,7 @@ navList() {
         return cy.get('[data-cy="burger-nav-list"]');
     }
 navMain() {
-        return cy.get('[data-cy="main-menu-home-lnk”]',{ timeout: 1000 });
+        return cy.get('[data-cy="main-menu-home-lnk"]',{ timeout: 1000 });
     }
 liveCasino() {
         return cy.get('[data-cy="main-menu-lobby-group-lnk"]');
@@ -16,7 +16,7 @@ quickGames() {
         return cy.get('[data-cy="main-menu-group-instantgames-lnk"]');
     }
 bonuses() {
-        return cy.get('[data-cy="main-menu-offers-bonuses-lnk”]');
+        return cy.get('[data-cy="main-menu-offers-bonuses-lnk"]');
     }
 tournaments() {
         return cy.get('[data-cy="main-menu-tournaments-list-lnk"]');
